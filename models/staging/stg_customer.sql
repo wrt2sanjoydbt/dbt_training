@@ -1,7 +1,6 @@
 {{
     config(
-        materialized='table',
-        transient = false
+        materialized='view'
     )
 }}
-select * from {{ source("stripe", "payment") }}
+select * from {{ source("jaffle_shop", "customers") }}

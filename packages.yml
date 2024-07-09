@@ -1,0 +1,3 @@
+packages:
+  - package: dbt-labs/snowplow
+    version: 0.12.0 # version number

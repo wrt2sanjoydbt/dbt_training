@@ -1,0 +1,6 @@
+packages:
+  - package: dbt-labs/snowplow
+    version: 0.12.0
+  - package: fishtown-analytics/dbt_utils
+    version: 0.6.6
+sha1_hash: 08dde27257eb9d7d20a6907841d899c7df2a7f42
